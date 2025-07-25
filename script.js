@@ -7,3 +7,9 @@ function getComputerChoice () {
     console.log (choose)
 }
 getComputerChoice()
+
+function getHumanChoice() {
+let person = prompt("Choississez Pierre, Feuille ou Ciseaux");
+return
+}
+console.log(getHumanChoice())
