@@ -1,6 +1,6 @@
 var tab = ["Pierre" , "Feuille" , "Ciseaux"]
 
-function getComputerChoice () {
+function getComputerChoice() {
     const indexAleatoire = Math.floor (Math.random () * 3)
     let choose = tab[indexAleatoire]
     
@@ -8,8 +8,10 @@ function getComputerChoice () {
 }
 getComputerChoice()
 
+
 function getHumanChoice() {
 let person = prompt("Choississez Pierre, Feuille ou Ciseaux");
-return
+const humanChoice = person ;
+return humanChoice
 }
 console.log(getHumanChoice())
